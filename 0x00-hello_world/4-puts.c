@@ -1,7 +1,6 @@
 #iclude <stdio.h>
-
-/** 
- * main - Entry Point
+/*
+ * main print a line of codes using puts
  *
- * Return: Always 0 (Success)
- */
+ * Return: 0
+*/
