@@ -16,8 +16,8 @@ char *_strstr(char *haystack, char *needle)
 		str1 = haystack; /*values*/
 		str2 = needle;
 
-		/*star while*/
-		while (*haystack != '\0' && *str2 != '\0' && *haystack == *str1)
+		/*Stat WHILE*/
+		while (*haystack != '\0' && *str2 != '\0' && *haystack == *str2)
 		{
 			haystack++;
 			str2++;
