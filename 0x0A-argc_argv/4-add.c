@@ -5,13 +5,13 @@
 #include <stdlib.h>
 
 /**
- * check_sum - checks - string there are digit
+ * check_num - checks - string there are digit
  * @str: array str
  *
  * Return: always 0 (successful)
  */
 
-int check_sum(char *str)
+int check_num(char *str)
 
 {
 	/*variable declaration*/
@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
 	int sum = 0;
 
 	count = 1;
-	while (count < argc) /*8goes through the whole array*/
+	while (count < argc) /*goes through the whole array*/
 	{
 		if (check_num(argv[count]))
 
