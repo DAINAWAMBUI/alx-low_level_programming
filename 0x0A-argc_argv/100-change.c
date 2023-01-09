@@ -3,9 +3,9 @@
 
 /**
  * main - function
- * @argc: length og argv
+ * @argc: length of argv
  * @argv: number of arguments
- * Return: always 0
+ * Return: Always 0
  */
 
 int main(int argc, char *argv[])
@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	int total;
 	int change;
 	int aux;
-	int coins[] = {25, 10, 5, 2, 1}; /*int array*/
+	int coins[] = {25, 10, 5, 2, 1}; /*array int*/
 
 	position = total = change = aux = 0;
 
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 
 	total = atoi(argv[1]); /*convert str to int*/
 
-	if (total <= 0)
+	if (total >= 0)
 	{
 		printf("0\n");
 		return (0);
