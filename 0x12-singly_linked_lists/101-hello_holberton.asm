@@ -1,7 +1,8 @@
 extern printf
 
 section .text
-   global main
+global main
+
 main:
 push rbp
 
@@ -18,4 +19,4 @@ ret
 
 section .data
 msg: db "Hello, Holberton", 0
-fmt: db "@s", 10, 0
+fmt: db "%s", 10, 0
